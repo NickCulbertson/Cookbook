@@ -108,7 +108,6 @@ class MultiSegmentPlayerConductor: ObservableObject, HasAudioEngine {
             try AudioKit.Settings.session.setCategory(.playAndRecord,
                                                       options: [.defaultToSpeaker,
                                                                 .mixWithOthers,
-                                                                .allowBluetooth,
                                                                 .allowBluetoothA2DP])
             try AudioKit.Settings.session.setActive(true)
         } catch {
