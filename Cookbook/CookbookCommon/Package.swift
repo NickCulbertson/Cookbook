@@ -21,14 +21,15 @@ let package = Package(
         .package(url: "https://github.com/AudioKit/Flow",              from: "1.0.0"),
         .package(url: "https://github.com/AudioKit/PianoRoll",         from: "1.0.0"),
         .package(url: "https://github.com/orchetect/MIDIKit",          from: "0.11.0"),
-        .package(url: "https://github.com/AudioKit/Tablature",          from: "0.1.0"),
-        .package(url: "https://github.com/AudioKit/Fretboard",          from: "0.1.0"),
+        .package(url: "https://github.com/AudioKit/Tablature",         from: "0.1.0"),
+        .package(url: "https://github.com/AudioKit/Fretboard",         from: "0.1.0"),
     ],
     targets: [
         .target(
             name: "CookbookCommon",
             dependencies: ["AudioKit", "AudioKitUI", "AudioKitEX", "Keyboard", "SoundpipeAudioKit",
-                           "SporthAudioKit", "STKAudioKit", "DunneAudioKit", "Tonic", "Controls", "Waveform", "Flow", "PianoRoll", "MIDIKit", "Tablature", "Fretboard"],
+                           "SporthAudioKit", "STKAudioKit",
+                           "DunneAudioKit", "Tonic", "Controls", "Waveform", "Flow", "PianoRoll", "MIDIKit", "Tablature", "Fretboard"],
             resources: [
                 .copy("MIDI Files"),
                 .copy("Samples"),

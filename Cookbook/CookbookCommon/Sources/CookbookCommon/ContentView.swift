@@ -38,7 +38,6 @@ struct MasterView: View {
                     }
                 }
 
-                
                 DisclosureGroup("Operations") {
                     Group {
                         NavigationLink("Crossing Signal", destination: CrossingSignalView())
@@ -204,7 +203,6 @@ struct MasterView: View {
                             NavigationLink("Tables", destination: TableRecipeView())
                         }
                     }
-                    
 
                     DisclosureGroup("WIP") {
                         Group {
