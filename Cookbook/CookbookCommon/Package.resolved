@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AudioKit/AudioKit",
       "state" : {
-        "revision" : "b2dbaed8cd38077092b6b6e311699ddf5d94dbd7",
-        "version" : "5.6.3"
+        "revision" : "5b3fd238ef8ee95c9842ca4ea83ca58ee151e630",
+        "version" : "5.6.5"
       }
     },
     {
@@ -41,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AudioKit/DunneAudioKit",
       "state" : {
-        "revision" : "dd0a417239ba345e03ca8ffe936d052d6a8239ea",
-        "version" : "5.6.1"
+        "branch" : "main",
+        "revision" : "3a73eaa274cef4f4c1c251d3315776d1ad2286e0"
       }
     },
     {
@@ -52,6 +52,15 @@
       "state" : {
         "revision" : "c2195aff3772a405655c08f22eb2aafbd77c27af",
         "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "fretboard",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AudioKit/Fretboard",
+      "state" : {
+        "revision" : "8f8136c5f7edb8e7669a1e87e52bd06fb43f8026",
+        "version" : "0.1.0"
       }
     },
     {
@@ -77,8 +86,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/orchetect/MIDIKit",
       "state" : {
-        "revision" : "b4947edd4c96760dbf1e9c7a686a69b5a30d44bf",
-        "version" : "0.9.5"
+        "revision" : "5af7926114fab97a9dd8c3e2068e0f9c65c1c20f",
+        "version" : "0.11.0"
       }
     },
     {
@@ -95,8 +104,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AudioKit/SoundpipeAudioKit",
       "state" : {
-        "revision" : "ee7d9542078ae48b24744a67c0350a12f9de354b",
-        "version" : "5.6.1"
+        "revision" : "8d0b6d2aabc28b5248effdce1d8bbf24911131cd",
+        "version" : "5.7.1"
       }
     },
     {
@@ -118,12 +127,21 @@
       }
     },
     {
-      "identity" : "timecodekit",
+      "identity" : "swift-timecode",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/orchetect/TimecodeKit",
+      "location" : "https://github.com/orchetect/swift-timecode",
       "state" : {
-        "revision" : "63ba241b35675a23802f0937c5b938e74e4f9aea",
-        "version" : "2.0.10"
+        "revision" : "f9a9e88c8e4c38b1b29d3db8130e1f07112e8b9e",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "tablature",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AudioKit/Tablature",
+      "state" : {
+        "revision" : "8885232440977b2a54cd32bd4b5f77714088176b",
+        "version" : "0.1.0"
       }
     },
     {
